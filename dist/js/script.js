@@ -43,7 +43,7 @@ function validateSubmit() {
         !validateEmail() ||
         !validateString(message.value, message)
     ) {
-        submitBtn.disabled = "disabled";
+        submitBtn.disabled = true;
         return;
     }
     submitBtn.disabled = false;
