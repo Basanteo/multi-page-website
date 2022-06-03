@@ -34,7 +34,7 @@ function handleFlip(e) {
 function handleSubmit() {
     form.reset();
     form.classList.add("success");
-    setTimeout(() => form.classList.remove("success"), 1000);
+    setTimeout(() => form.classList.remove("success"), 2000);
 }
 
 function validateSubmit() {
